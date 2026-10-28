@@ -27,7 +27,8 @@
   {
     "date": "2025-06",
     "text": "I defended my PhD at ETH Zurich: <em>Towards Robust and Flexible Robot State and Motion Estimation through Optimization and Learning</em>.",
-    "url": "https://doi.org/10.3929/ethz-c-000791065"
+    "url": "https://doi.org/10.3929/ethz-c-000791065",
+    "label": "Thesis"
   },
   {
     "date": "2025-01",

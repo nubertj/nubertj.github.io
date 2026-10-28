@@ -9,7 +9,7 @@ Edit data files, not markup, whenever you can:
 | What | File |
 |---|---|
 | Bio, role, education, honors, links | `src/data/profile.json` (`about` entries may contain inline HTML links) |
-| News items (newest first) | `src/data/news.json` |
+| News items (newest first; optional `url` + `label`, e.g. "Paper", "Video"; default label: "Paper" for DOIs, else "Announcement") | `src/data/news.json` |
 | Publications | `src/data/publications.json` |
 | Works to never import | `src/data/publications.ignore.json` (list of titles) |
 | Portrait | `public/portrait.jpg` |
