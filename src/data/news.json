@@ -1,6 +1,21 @@
 [
-  { "date": "2026-07", "text": "Flexion announced a Sim2Real research collaboration with Niantic Spatial and NVIDIA.", "url": "https://flexion.ai" },
-  { "date": "2026-06", "text": "Flexion released <em>Reflect v1.0</em>, our work on generalizable, long-horizon humanoid autonomy.", "url": "https://flexion.ai" },
-  { "date": "2026", "text": "<em>Holistic Fusion</em> was published in IEEE Transactions on Robotics.", "url": "https://github.com/leggedrobotics/holistic_fusion" },
-  { "date": "2025", "text": "I defended my PhD at ETH Zurich." }
+  {
+    "date": "2026-07",
+    "text": "Flexion announced a Sim2Real research collaboration with Niantic Spatial and NVIDIA.",
+    "url": "https://flexion.ai"
+  },
+  {
+    "date": "2026-07",
+    "text": "<em>Holistic Fusion</em> was published in IEEE Transactions on Robotics.",
+    "url": "https://github.com/leggedrobotics/holistic_fusion"
+  },
+  {
+    "date": "2026-06",
+    "text": "Flexion released <em>Reflect v1.0</em>, our work on generalizable, long-horizon humanoid autonomy.",
+    "url": "https://flexion.ai"
+  },
+  {
+    "date": "2025",
+    "text": "I defended my PhD at ETH Zurich."
+  }
 ]
