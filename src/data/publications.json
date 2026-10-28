@@ -334,7 +334,7 @@
     "links": {
       "code": "https://github.com/leggedrobotics/graph_msf"
     },
-    "featured": false
+    "featured": true
   },
   {
     "id": "learningbasedlocalizabilityestimationforrobustli",
@@ -350,9 +350,7 @@
     "type": "conference",
     "doi": "10.1109/iros47612.2022.9982257",
     "arxiv": "",
-    "links": {
-      "code": "https://github.com/leggedrobotics/L3E"
-    },
+    "links": {},
     "featured": true,
     "award": "Best Student Paper Award Finalist"
   },
