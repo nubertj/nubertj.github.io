@@ -158,9 +158,11 @@
     "year": 2025,
     "venue": "PhD thesis, ETH Zurich",
     "type": "thesis",
-    "doi": "10.3929/ethz-c-000791065",
+    "doi": "",
     "arxiv": "",
-    "links": {},
+    "links": {
+      "thesis": "https://www.research-collection.ethz.ch/entities/publication/3338c758-d652-458a-bd26-1a1638fd6336"
+    },
     "featured": false
   },
   {
@@ -446,7 +448,9 @@
     "type": "thesis",
     "doi": "",
     "arxiv": "",
-    "links": {},
+    "links": {
+      "pdf": "https://www.ist.uni-stuttgart.de/de/institut/team/PDFs_MA-Seiten/JK/Thesis.pdf"
+    },
     "featured": false
   },
   {

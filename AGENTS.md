@@ -20,7 +20,7 @@ Pages: `src/pages/index.astro` (home) and `src/pages/publications.astro`. Shared
 
 `node scripts/sync-publications.mjs` pulls from OpenAlex (author `A5014575365`) and ORCID (`0000-0001-8949-6134`). It adds new works and upgrades preprints once they are published. It never overwrites existing fields, and entries with `"locked": true` are never upgraded. Use `--dry-run` to preview. A weekly GitHub Action runs the script and opens a PR.
 
-Entry fields: `title`, `authors` (exact name `Julian Nubert` gets bolded), `year`, `venue`, `type` (`journal` | `conference` | `workshop` | `preprint` | `thesis`), `doi`, `arxiv` (ID only), `links` (`code`, `project`, `video`, `pdf`, `slides` → URL), `award`, `featured` (shown on the home page), `equal` (list of co-first authors, rendered with *; names must match `authors` exactly).
+Entry fields: `title`, `authors` (exact name `Julian Nubert` gets bolded), `year`, `venue`, `type` (`journal` | `conference` | `workshop` | `preprint` | `thesis`), `doi`, `arxiv` (ID only), `links` (`thesis`, `code`, `project`, `video`, `pdf`, `slides` → URL), `award`, `featured` (shown on the home page), `equal` (list of co-first authors, rendered with *; names must match `authors` exactly).
 
 Keep venue names consistent with the existing entries, e.g. `IEEE Intl. Conf. on Robotics and Automation (ICRA)`.
 
