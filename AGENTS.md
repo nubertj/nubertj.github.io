@@ -28,6 +28,7 @@ Keep venue names consistent with the existing entries, e.g. `IEEE Intl. Conf. on
 
 - Only add public information. Never add personal contact details beyond what is already in `profile.json`.
 - Don't invent facts (dates, awards, affiliations). If something is unclear, leave it out and say so in the PR.
+- A news item's `url` must point to the specific announcement (blog post, DOI, press release), never a homepage. If no such page exists, omit `url`.
 - Run `npm run build` before committing. Changes go through a PR unless Julian says otherwise.
 
 ## Development
