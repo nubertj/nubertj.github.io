@@ -315,9 +315,11 @@
     "year": 2023,
     "venue": "ICRA 2023 Workshop on Robot-Assisted Medical Imaging",
     "type": "workshop",
-    "doi": "10.3929/ethz-b-000659440",
+    "doi": "",
     "arxiv": "",
-    "links": {},
+    "links": {
+      "paper": "https://www.research-collection.ethz.ch/entities/publication/f23aa2fa-b696-4ade-9f98-3704aadea4a7"
+    },
     "featured": false
   },
   {
@@ -367,9 +369,10 @@
     "year": 2022,
     "venue": "ICRA 2022 Workshop on Robotic Perception and Mapping",
     "type": "workshop",
-    "doi": "10.3929/ethz-b-000551852",
+    "doi": "",
     "arxiv": "",
     "links": {
+      "paper": "https://www.research-collection.ethz.ch/entities/publication/39ad31fa-38e2-4d73-aa2d-2c54c123c846",
       "code": "https://github.com/leggedrobotics/open3d_slam"
     },
     "featured": false
