@@ -37,9 +37,10 @@ const linkLabel = (n: { url?: string; label?: string }) =>
 
   <section class="card flexion">
     <div class="card-label">Now</div>
-    <h3><a href={profile.role.url}>{profile.role.org}</a></h3>
+    <h3><a href={profile.flexion.cta.url}>{profile.flexion.name}</a></h3>
     <p>{profile.flexion.summary}</p>
     <ul>{profile.flexion.points.map((p) => <li>{p}</li>)}</ul>
+    <a href={profile.flexion.cta.url} class="button">{profile.flexion.cta.label}</a>
   </section>
 
   <h2>News</h2>
@@ -100,6 +101,8 @@ const linkLabel = (n: { url?: string; label?: string }) =>
   .card h3 a { color: var(--text); }
   .card p { margin: 0 0 8px; }
   .card ul { margin: 0; padding-left: 18px; color: var(--muted); }
+  .button { display: inline-block; margin-top: 18px; padding: 8px 18px; border-radius: 8px; background: var(--accent); color: var(--bg); font-size: 0.92rem; font-weight: 500; }
+  .button:hover { text-decoration: none; filter: brightness(1.1); }
 
   .news { list-style: none; padding: 0; margin: 0; }
   .news li { display: grid; grid-template-columns: 84px 1fr; gap: 16px; padding: 7px 0; }

@@ -19,12 +19,17 @@
     "Humanoids"
   ],
   "flexion": {
+    "name": "Flexion",
     "summary": "Flexion builds the robots' brain: a hardware-agnostic autonomy stack that takes humanoids from simulation to real-world tasks.",
     "points": [
       "Founder, leading the perception team",
       "Offices in Zurich and San Francisco",
       "Named Best Ranked Robotics Startup at the Top 100 Swiss Startup Award"
-    ]
+    ],
+    "cta": {
+      "label": "Visit flexion.ai",
+      "url": "https://flexion.ai"
+    }
   },
   "education": [
     {
