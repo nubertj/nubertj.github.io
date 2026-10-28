@@ -15,7 +15,7 @@
     "venue": "IEEE Transactions on Robotics (T-RO)",
     "type": "journal",
     "doi": "10.1109/tro.2026.3714645",
-    "arxiv": "",
+    "arxiv": "2504.06479",
     "links": {
       "code": "https://github.com/leggedrobotics/holistic_fusion"
     },
@@ -39,7 +39,7 @@
     "venue": "IEEE Transactions on Field Robotics (T-FR)",
     "type": "journal",
     "doi": "10.1109/tfr.2026.3662619",
-    "arxiv": "",
+    "arxiv": "2508.09003",
     "links": {},
     "featured": false
   },
@@ -126,7 +126,7 @@
     "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
     "type": "conference",
     "doi": "10.1109/iros60139.2025.11247134",
-    "arxiv": "",
+    "arxiv": "2504.04603",
     "links": {},
     "featured": false
   },
@@ -145,7 +145,7 @@
     "venue": "IEEE Transactions on Field Robotics (T-FR)",
     "type": "journal",
     "doi": "10.1109/tfr.2025.3576053",
-    "arxiv": "",
+    "arxiv": "2408.11809",
     "links": {},
     "featured": false
   },
@@ -238,7 +238,7 @@
     "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
     "type": "conference",
     "doi": "10.1109/iros58592.2024.10802199",
-    "arxiv": "",
+    "arxiv": "2410.05093",
     "links": {},
     "featured": false
   },
@@ -261,7 +261,7 @@
     "venue": "IEEE Transactions on Field Robotics (T-FR)",
     "type": "journal",
     "doi": "10.1109/tfr.2024.3464369",
-    "arxiv": "",
+    "arxiv": "2402.19341",
     "links": {},
     "featured": false
   },
@@ -299,7 +299,7 @@
     "venue": "IEEE Transactions on Robotics (T-RO)",
     "type": "journal",
     "doi": "10.1109/tro.2023.3335691",
-    "arxiv": "",
+    "arxiv": "2211.16335",
     "links": {},
     "featured": true
   },
@@ -334,7 +334,7 @@
     "venue": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
     "type": "conference",
     "doi": "10.1109/icra46639.2022.9812386",
-    "arxiv": "",
+    "arxiv": "2203.01389",
     "links": {
       "code": "https://github.com/leggedrobotics/graph_msf"
     },
@@ -353,7 +353,7 @@
     "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
     "type": "conference",
     "doi": "10.1109/iros47612.2022.9982257",
-    "arxiv": "",
+    "arxiv": "2203.05698",
     "links": {},
     "featured": true,
     "award": "Best Student Paper Award Finalist"
@@ -416,7 +416,7 @@
     "venue": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
     "type": "conference",
     "doi": "10.1109/icra48506.2021.9561063",
-    "arxiv": "",
+    "arxiv": "2011.05418",
     "links": {
       "code": "https://github.com/leggedrobotics/delora"
     },
@@ -436,7 +436,7 @@
     "venue": "IEEE Robotics and Automation Letters (RA-L)",
     "type": "journal",
     "doi": "10.1109/lra.2020.2975727",
-    "arxiv": "",
+    "arxiv": "1912.10360",
     "links": {},
     "featured": true
   },
