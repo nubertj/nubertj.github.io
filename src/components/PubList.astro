@@ -1,0 +1,65 @@
+---
+import profile from '../data/profile.json';
+
+export interface Pub {
+  id: string;
+  title: string;
+  authors: string[];
+  year: number;
+  venue: string;
+  type: string;
+  doi?: string;
+  arxiv?: string;
+  links?: Record<string, string>;
+  award?: string;
+  featured?: boolean;
+}
+interface Props {
+  pubs: Pub[];
+}
+const { pubs } = Astro.props;
+const LABELS: Record<string, string> = { code: 'Code', project: 'Project', video: 'Video', pdf: 'PDF', slides: 'Slides' };
+---
+
+<ol class="pubs">
+  {
+    pubs.map((p) => (
+      <li class="pub" id={p.id}>
+        <div class="pub-title">{p.title}</div>
+        <div class="pub-authors">
+          {p.authors.map((a, i) => (
+            <>
+              {a === profile.name ? <strong>{a}</strong> : a}
+              {i < p.authors.length - 1 && ', '}
+            </>
+          ))}
+        </div>
+        <div class="pub-meta">
+          <span class="venue">{p.venue || p.type}</span>, {p.year}
+          {p.award && <span class="award">{p.award}</span>}
+        </div>
+        <div class="pub-links">
+          {p.doi && <a href={`https://doi.org/${p.doi}`}>DOI</a>}
+          {p.arxiv && <a href={`https://arxiv.org/abs/${p.arxiv}`}>arXiv</a>}
+          {Object.entries(p.links ?? {}).map(([k, url]) => <a href={url}>{LABELS[k] ?? k}</a>)}
+        </div>
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .pubs { list-style: none; padding: 0; margin: 0; }
+  .pub { padding: 18px 0; border-top: 1px solid var(--line); }
+  .pub:first-child { border-top: 0; padding-top: 4px; }
+  .pub-title { font-weight: 500; line-height: 1.4; }
+  .pub-authors { color: var(--muted); font-size: 0.92rem; margin-top: 3px; }
+  .pub-authors strong { color: var(--text); font-weight: 600; }
+  .pub-meta { font-size: 0.92rem; margin-top: 2px; }
+  .venue { font-style: italic; }
+  .award { display: inline-block; margin-left: 8px; padding: 0 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.78rem; font-weight: 500; font-style: normal; }
+  .pub-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .pub-links a { font-size: 0.78rem; font-weight: 500; padding: 1px 9px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); }
+  .pub-links a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+  .pub-links:empty { display: none; }
+</style>

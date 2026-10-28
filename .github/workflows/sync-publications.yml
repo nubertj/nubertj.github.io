@@ -1,0 +1,40 @@
+name: Sync publications
+
+# Weekly check of OpenAlex + ORCID. New papers arrive as a pull request for review.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: sync
+        run: |
+          {
+            echo 'summary<<EOF'
+            node scripts/sync-publications.mjs
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/sync-publications
+          commit-message: 'Sync publications from OpenAlex/ORCID'
+          title: 'New publications found'
+          body: |
+            The weekly sync found these changes:
+
+            ${{ steps.sync.outputs.summary }}
+
+            Before merging, check the venue names and set `featured`, `award` or `links` (code, project, video) where useful.
+            If an entry is not yours, add its title to `src/data/publications.ignore.json`.
+          delete-branch: true

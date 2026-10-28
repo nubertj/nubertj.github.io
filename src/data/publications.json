@@ -1,0 +1,514 @@
+[
+  {
+    "id": "holisticfusiontaskandsetupagnosticrobotlocalizat",
+    "title": "Holistic Fusion: Task- and Setup-Agnostic Robot Localization and State Estimation With Factor Graphs",
+    "authors": [
+      "Julian Nubert",
+      "Turcan Tuna",
+      "Jonas Frey",
+      "César Cadena",
+      "Katherine J. Kuchenbecker",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2026,
+    "venue": "IEEE Transactions on Robotics (T-RO)",
+    "type": "journal",
+    "doi": "10.1109/tro.2026.3714645",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leggedrobotics/holistic_fusion"
+    },
+    "featured": true
+  },
+  {
+    "id": "largescaleroboticmaterialhandlinglearningplannin",
+    "title": "Large-Scale Robotic Material Handling: Learning, Planning, and Control",
+    "authors": [
+      "Filippo Spinelli",
+      "Yifan Zhai",
+      "Fang Nan",
+      "Pascal Egli",
+      "Julian Nubert",
+      "Thilo Bleumer",
+      "Lukas Miller",
+      "Ferdinand Hofmann",
+      "Marco Hutter"
+    ],
+    "year": 2026,
+    "venue": "IEEE Transactions on Field Robotics (T-FR)",
+    "type": "journal",
+    "doi": "10.1109/tfr.2026.3662619",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "boxidesigndecisionsinthecontextofalgorithmicperf",
+    "title": "Boxi: Design Decisions in the Context of Algorithmic Performance for Robotics",
+    "authors": [
+      "Jonas Frey",
+      "Turcan Tuna",
+      "Lanke Frank Tarimo Fu",
+      "Cedric Weibel",
+      "Katharine Patterson",
+      "Benjamin Krummenacher",
+      "Matthias Müller",
+      "Julian Nubert",
+      "Maurice F. Fallon",
+      "César Cadena",
+      "Marco Hutter"
+    ],
+    "year": 2025,
+    "venue": "Robotics: Science and Systems (RSS)",
+    "type": "conference",
+    "doi": "10.15607/rss.2025.xxi.134",
+    "arxiv": "2504.18500",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "compslamcomplementaryhierarchicalmultimodallocal",
+    "title": "CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments",
+    "authors": [
+      "Shehryar Khattak",
+      "Timon Homberger",
+      "Lukas Bernreiter",
+      "Julian Nubert",
+      "Olov Andersson",
+      "Roland Siegwart",
+      "Kostas Alexis",
+      "Marco Hutter"
+    ],
+    "year": 2025,
+    "venue": "ICRA 2025 Workshop: Robots in the Wild",
+    "type": "workshop",
+    "doi": "",
+    "arxiv": "2505.06483",
+    "links": {
+      "code": "https://github.com/leggedrobotics/compslam_subt"
+    },
+    "featured": false,
+    "locked": true
+  },
+  {
+    "id": "continuoustimestateestimationmethodsinroboticsas",
+    "title": "Continuous-Time State Estimation Methods in Robotics: A Survey",
+    "authors": [
+      "William Talbot",
+      "Julian Nubert",
+      "Turcan Tuna",
+      "César Cadena",
+      "Frederike Dümbgen",
+      "Jesus Tordesillas",
+      "Timothy D. Barfoot",
+      "Marco Hutter"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Robotics (T-RO)",
+    "type": "journal",
+    "doi": "10.1109/tro.2025.3593079",
+    "arxiv": "2411.03951",
+    "links": {},
+    "featured": true
+  },
+  {
+    "id": "diffusionbasedapproximatempcfastandconsistentimi",
+    "title": "Diffusion-Based Approximate MPC: Fast and Consistent Imitation of Multi-Modal Action Distributions",
+    "authors": [
+      "Pau Marquez Julbe",
+      "Julian Nubert",
+      "Henrik Hose",
+      "Sebastian Trimpe",
+      "Katherine J. Kuchenbecker"
+    ],
+    "year": 2025,
+    "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
+    "type": "conference",
+    "doi": "10.1109/iros60139.2025.11247134",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "informedconstrainedalignedafieldanalysisondegene",
+    "title": "Informed, Constrained, Aligned: A Field Analysis on Degeneracy-Aware Point Cloud Registration in the Wild",
+    "authors": [
+      "Turcan Tuna",
+      "Julian Nubert",
+      "Patrick Pfreundschuh",
+      "César Cadena",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Field Robotics (T-FR)",
+    "type": "journal",
+    "doi": "10.1109/tfr.2025.3576053",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "towardsrobustandflexiblerobotstateandmotionestim",
+    "title": "Towards Robust and Flexible Robot State and Motion Estimation through Optimization and Learning",
+    "authors": [
+      "Julian Nubert"
+    ],
+    "year": 2025,
+    "venue": "PhD thesis, ETH Zurich",
+    "type": "thesis",
+    "doi": "10.3929/ethz-c-000791065",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "dense3dreconstructionthroughlidaracomparativestu",
+    "title": "Dense 3D Reconstruction Through Lidar: A Comparative Study on Ex-vivo Porcine Tissue",
+    "authors": [
+      "Guido Caccianiga",
+      "Julian Nubert",
+      "Marco Hutter",
+      "Katherine J. Kuchenbecker"
+    ],
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "2401.10709",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "ethcavationadatasetandpipelineforpanopticsceneun",
+    "title": "ETHcavation: A Dataset and Pipeline for Panoptic Scene Understanding and Object Tracking in Dynamic Construction Environments",
+    "authors": [
+      "Lorenzo Terenzi",
+      "Julian Nubert",
+      "Pol Eyschen",
+      "Pascal Roth",
+      "Simin Fei",
+      "Edo Jelavić",
+      "Marco Hutter"
+    ],
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "2410.04250",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "multiviperfrogagloballyoptimizedmultiviewpointpe",
+    "title": "MultiViPerFrOG: A Globally Optimized Multi-Viewpoint Perception Framework for Camera Motion and Tissue Deformation",
+    "authors": [
+      "Guido Caccianiga",
+      "Julian Nubert",
+      "César Cadena",
+      "Marco Hutter",
+      "Katherine J. Kuchenbecker"
+    ],
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "2408.04367",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "reinforcementlearningcontrolforautonomoushydraul",
+    "title": "Reinforcement Learning Control for Autonomous Hydraulic Material Handling Machines with Underactuated Tools",
+    "authors": [
+      "Filippo Spinelli",
+      "Pascal Egli",
+      "Julian Nubert",
+      "Fang Nan",
+      "Thilo Bleumer",
+      "Patrick Goegler",
+      "Stephan Brockes",
+      "Ferdinand Hofmann",
+      "Marco Hutter"
+    ],
+    "year": 2024,
+    "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
+    "type": "conference",
+    "doi": "10.1109/iros58592.2024.10802199",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "roadrunnerlearningtraversabilityestimationforaut",
+    "title": "RoadRunner—Learning Traversability Estimation for Autonomous Off-Road Driving",
+    "authors": [
+      "Jonas Frey",
+      "Manthan Patel",
+      "Deegan Atha",
+      "Julian Nubert",
+      "David D. Fan",
+      "Ali-akbar Agha-mohammadi",
+      "Curtis W. Padgett",
+      "Patrick Spieler",
+      "Marco Hutter",
+      "Shehryar Khattak"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Field Robotics (T-FR)",
+    "type": "journal",
+    "doi": "10.1109/tfr.2024.3464369",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "viplannervisualsemanticimperativelearningforloca",
+    "title": "ViPlanner: Visual Semantic Imperative Learning for Local Navigation",
+    "authors": [
+      "Pascal Roth",
+      "Julian Nubert",
+      "Fan Yang",
+      "Mayank Mittal",
+      "Marco Hutter"
+    ],
+    "year": 2024,
+    "venue": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
+    "type": "conference",
+    "doi": "10.1109/icra57147.2024.10610025",
+    "arxiv": "2310.00982",
+    "links": {
+      "code": "https://github.com/leggedrobotics/viplanner"
+    },
+    "featured": false
+  },
+  {
+    "id": "xicplocalizabilityawarelidarregistrationforrobus",
+    "title": "X-ICP: Localizability-Aware LiDAR Registration for Robust Localization in Extreme Environments",
+    "authors": [
+      "Turcan Tuna",
+      "Julian Nubert",
+      "Yoshua Nava",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Robotics (T-RO)",
+    "type": "journal",
+    "doi": "10.1109/tro.2023.3335691",
+    "arxiv": "",
+    "links": {},
+    "featured": true
+  },
+  {
+    "id": "3dreconstructionforminimallyinvasivesurgerylidar",
+    "title": "3D Reconstruction for Minimally Invasive Surgery: Lidar versus Learning-based Stereo Matching",
+    "authors": [
+      "Guido Caccianiga",
+      "Julian Nubert",
+      "Marco Hutter",
+      "Katherine J. Kuchenbecker"
+    ],
+    "year": 2023,
+    "venue": "ICRA 2023 Workshop on Robot-Assisted Medical Imaging",
+    "type": "workshop",
+    "doi": "10.3929/ethz-b-000659440",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "graphbasedmultisensorfusionforconsistentlocaliza",
+    "title": "Graph-based Multi-sensor Fusion for Consistent Localization of Autonomous Construction Robots",
+    "authors": [
+      "Julian Nubert",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2022,
+    "venue": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
+    "type": "conference",
+    "doi": "10.1109/icra46639.2022.9812386",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leggedrobotics/graph_msf"
+    },
+    "featured": false
+  },
+  {
+    "id": "learningbasedlocalizabilityestimationforrobustli",
+    "title": "Learning-based Localizability Estimation for Robust LiDAR Localization",
+    "authors": [
+      "Julian Nubert",
+      "Etienne Walther",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2022,
+    "venue": "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)",
+    "type": "conference",
+    "doi": "10.1109/iros47612.2022.9982257",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leggedrobotics/L3E"
+    },
+    "featured": true,
+    "award": "Best Student Paper Award Finalist"
+  },
+  {
+    "id": "open3dslampointcloudbasedmappingandlocalizationf",
+    "title": "Open3D SLAM: Point Cloud Based Mapping and Localization for Education",
+    "authors": [
+      "Edo Jelavic",
+      "Julian Nubert",
+      "Marco Hutter"
+    ],
+    "year": 2022,
+    "venue": "ICRA 2022 Workshop on Robotic Perception and Mapping",
+    "type": "workshop",
+    "doi": "10.3929/ethz-b-000551852",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leggedrobotics/open3d_slam"
+    },
+    "featured": false
+  },
+  {
+    "id": "airborneparticleclassificationinlidarpointclouds",
+    "title": "Airborne Particle Classification in LiDAR Point Clouds Using Deep Learning",
+    "authors": [
+      "Leo Stanislas",
+      "Julian Nubert",
+      "Daniel Dugas",
+      "Julia Nitsch",
+      "Niko Sünderhauf",
+      "Roland Siegwart",
+      "César Cadena",
+      "Thierry Peynot"
+    ],
+    "year": 2021,
+    "venue": "Field and Service Robotics (FSR)",
+    "type": "conference",
+    "doi": "10.1007/978-981-15-9460-1_28",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leo-stan/particles_detection_fsr"
+    },
+    "featured": false
+  },
+  {
+    "id": "selfsupervisedlearningoflidarodometryforrobotica",
+    "title": "Self-supervised Learning of LiDAR Odometry for Robotic Applications",
+    "authors": [
+      "Julian Nubert",
+      "Shehryar Khattak",
+      "Marco Hutter"
+    ],
+    "year": 2021,
+    "venue": "IEEE Intl. Conf. on Robotics and Automation (ICRA)",
+    "type": "conference",
+    "doi": "10.1109/icra48506.2021.9561063",
+    "arxiv": "",
+    "links": {
+      "code": "https://github.com/leggedrobotics/delora"
+    },
+    "featured": true
+  },
+  {
+    "id": "safeandfasttrackingonarobotmanipulatorrobustmpca",
+    "title": "Safe and Fast Tracking on a Robot Manipulator: Robust MPC and Neural Network Control",
+    "authors": [
+      "Julian Nubert",
+      "Johannes Köhler",
+      "Vincent Berenz",
+      "Frank Allgöwer",
+      "Sebastian Trimpe"
+    ],
+    "year": 2020,
+    "venue": "IEEE Robotics and Automation Letters (RA-L)",
+    "type": "journal",
+    "doi": "10.1109/lra.2020.2975727",
+    "arxiv": "",
+    "links": {},
+    "featured": true
+  },
+  {
+    "id": "learningbasedapproximatemodelpredictivecontrolwi",
+    "title": "Learning-based Approximate Model Predictive Control with Guarantees - Joining Neural Networks with Recent Robust MPC",
+    "authors": [
+      "Julian Nubert"
+    ],
+    "year": 2019,
+    "venue": "MSc thesis, ETH Zurich & Max Planck Institute for Intelligent Systems",
+    "type": "thesis",
+    "doi": "",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "developingapurelyvisualbasedobstacledetectionusi",
+    "title": "Developing a Purely Visual Based Obstacle Detection using Inverse Perspective Mapping",
+    "authors": [
+      "Julian Nubert",
+      "Niklas Funk",
+      "Fabio Vito Meier",
+      "Fabrice Oehler"
+    ],
+    "year": 2018,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "1809.01268",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "trafficdensityestimationusingaconvolutionalneura",
+    "title": "Traffic Density Estimation using a Convolutional Neural Network",
+    "authors": [
+      "Julian Nubert",
+      "Nicholas Giai Truong",
+      "Abel Lim",
+      "Herbert Ilhan Tanujaya",
+      "Leah Lim",
+      "Mai Anh Vu"
+    ],
+    "year": 2018,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "1809.01564",
+    "links": {},
+    "featured": false
+  },
+  {
+    "id": "autonomouselectricracecardesign",
+    "title": "Autonomous Electric Race Car Design",
+    "authors": [
+      "Niklas Funk",
+      "Nikhilesh Alatur",
+      "Robin Deuber",
+      "Frederick Gonon",
+      "Nico Messikommer",
+      "Julian Nubert",
+      "Moritz Patriarca",
+      "Simon Schaefer",
+      "Dominic Scotoni",
+      "Nicholas Bünger",
+      "Renaud Dubé",
+      "Raghav Khanna",
+      "Mark Pfeiffer",
+      "Erik Wilhelm",
+      "Roland Siegwart"
+    ],
+    "year": 2017,
+    "venue": "arXiv preprint",
+    "type": "preprint",
+    "doi": "",
+    "arxiv": "1711.00548",
+    "links": {},
+    "featured": false
+  }
+]

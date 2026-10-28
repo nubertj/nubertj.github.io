@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PubList, { type Pub } from '../components/PubList.astro';
+import profile from '../data/profile.json';
+import pubs from '../data/publications.json';
+
+const SECTIONS = [
+  { type: 'journal', title: 'Journal articles' },
+  { type: 'conference', title: 'Conference papers' },
+  { type: 'workshop', title: 'Workshop papers' },
+  { type: 'preprint', title: 'Preprints' },
+  { type: 'thesis', title: 'Theses' },
+];
+const groups = SECTIONS.map((s) => ({ ...s, pubs: (pubs as Pub[]).filter((p) => p.type === s.type) })).filter((s) => s.pubs.length);
+---
+
+<Base title="Publications" description={`Publications by ${profile.name} on robot perception, state estimation and learning.`}>
+  <h1 class="page-title">Publications</h1>
+  <p class="intro">
+    Also on <a href={profile.links.scholar}>Google Scholar</a> and <a href={profile.links.orcid}>ORCID</a>.
+  </p>
+  <nav class="toc" aria-label="Sections">
+    {groups.map((g) => <a href={`#${g.type}`}>{g.title} <span>{g.pubs.length}</span></a>)}
+  </nav>
+  {
+    groups.map((g) => (
+      <section id={g.type}>
+        <h2>{g.title}</h2>
+        <PubList pubs={g.pubs} />
+      </section>
+    ))
+  }
+</Base>
+
+<style>
+  .page-title { font-size: 2.4rem; margin: 48px 0 6px; }
+  .intro { color: var(--muted); margin: 0; }
+  .toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+  .toc a { font-size: 0.85rem; padding: 3px 12px; border-radius: 999px; background: var(--surface); color: var(--text); }
+  .toc a:hover { text-decoration: none; background: var(--accent-soft); }
+  .toc span { color: var(--muted); margin-left: 2px; }
+  section { scroll-margin-top: 72px; }
+</style>

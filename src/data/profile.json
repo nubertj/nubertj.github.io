@@ -1,0 +1,37 @@
+{
+  "name": "Julian Nubert",
+  "tagline": "Robotics researcher and founder, building perception for humanoid robots.",
+  "role": {
+    "title": "Founder · Perception Lead",
+    "org": "Flexion Robotics",
+    "url": "https://flexion.ai"
+  },
+  "location": "Zurich, Switzerland",
+  "about": [
+    "I'm a founder of <a href=\"https://flexion.ai\">Flexion Robotics</a>, where I lead the perception team. At Flexion we are building the autonomy stack for humanoid robots. It covers perception, locomotion, manipulation and task-level reasoning, uses simulation and reinforcement learning, and is designed to transfer to real-world hardware.",
+    "Before Flexion, I did my PhD at <a href=\"https://rsl.ethz.ch\">ETH Zurich</a> in the Robotic Systems Lab with Marco Hutter, as part of the Max Planck ETH Center for Learning Systems with Katherine J. Kuchenbecker (Haptic Intelligence, MPI for Intelligent Systems). During my PhD I also worked with the NASA Jet Propulsion Laboratory. My thesis focused on robust and flexible robot state and motion estimation through optimization and learning: LiDAR odometry, localizability-aware registration, and multi-sensor factor-graph fusion for robots operating in extreme environments."
+  ],
+  "interests": ["Robot perception", "State estimation", "Sensor fusion & SLAM", "Learning for robotics", "Humanoids"],
+  "flexion": {
+    "summary": "Flexion builds the robots' brain: a hardware-agnostic autonomy stack that takes humanoids from simulation to real-world tasks.",
+    "points": [
+      "Founder, leading the perception team",
+      "Offices in Zurich and San Francisco",
+      "Named Best Ranked Robotics Startup at the Top 100 Swiss Startup Award"
+    ]
+  },
+  "education": [
+    { "degree": "PhD, Robotics & Machine Learning", "org": "ETH Zurich · Robotic Systems Lab & Max Planck ETH Center for Learning Systems", "years": "2020–2025" },
+    { "degree": "MSc", "org": "ETH Zurich · thesis at Max Planck Institute for Intelligent Systems" }
+  ],
+  "honors": [
+    "IROS 2022 Best Student Paper Award Finalist",
+    "PhD representative, Max Planck ETH Center for Learning Systems (2022–2024)"
+  ],
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=kkirJKcAAAAJ",
+    "orcid": "https://orcid.org/0000-0001-8949-6134",
+    "github": "https://github.com/nubertj",
+    "linkedin": "https://www.linkedin.com/in/juliannubert"
+  }
+}
