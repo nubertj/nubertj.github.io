@@ -393,7 +393,11 @@
     "links": {
       "code": "https://github.com/leo-stan/particles_detection_fsr"
     },
-    "featured": false
+    "featured": false,
+    "equal": [
+      "Leo Stanislas",
+      "Julian Nubert"
+    ]
   },
   {
     "id": "selfsupervisedlearningoflidarodometryforrobotica",

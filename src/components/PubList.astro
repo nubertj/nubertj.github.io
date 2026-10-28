@@ -13,6 +13,7 @@ export interface Pub {
   links?: Record<string, string>;
   award?: string;
   featured?: boolean;
+  equal?: string[]; // authors with equal contribution, marked with *
 }
 interface Props {
   pubs: Pub[];
@@ -30,9 +31,11 @@ const LABELS: Record<string, string> = { code: 'Code', project: 'Project', video
           {p.authors.map((a, i) => (
             <>
               {a === profile.name ? <strong>{a}</strong> : a}
+              {p.equal?.includes(a) && '*'}
               {i < p.authors.length - 1 && ', '}
             </>
           ))}
+          {p.equal?.length ? <span class="equal-note"> (* equal contribution)</span> : null}
         </div>
         <div class="pub-meta">
           <span class="venue">{p.venue || p.type}</span>, {p.year}
@@ -55,6 +58,7 @@ const LABELS: Record<string, string> = { code: 'Code', project: 'Project', video
   .pub-title { font-weight: 500; line-height: 1.4; }
   .pub-authors { color: var(--muted); font-size: 0.92rem; margin-top: 3px; }
   .pub-authors strong { color: var(--text); font-weight: 600; }
+  .equal-note { font-size: 0.82rem; font-style: italic; }
   .pub-meta { font-size: 0.92rem; margin-top: 2px; }
   .venue { font-style: italic; }
   .award { display: inline-block; margin-left: 8px; padding: 0 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 0.78rem; font-weight: 500; font-style: normal; }
