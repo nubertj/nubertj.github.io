@@ -1,5 +1,27 @@
 [
   {
+    "id": "bridgingvisionlanguagereasoningandlearnedcontrol",
+    "title": "Bridging vision-language reasoning and learned control for legged navigation in the wild",
+    "authors": [
+      "Takahiro Miki",
+      "Robin Schmid",
+      "Manthan Patel",
+      "Turcan Tuna",
+      "Julia Richter",
+      "Julian Nubert",
+      "Joonho Lee",
+      "Matthias F. Mueller",
+      "Marco Hutter"
+    ],
+    "year": 2026,
+    "venue": "Science Robotics",
+    "type": "journal",
+    "doi": "10.1126/scirobotics.aee1549",
+    "arxiv": "",
+    "links": {},
+    "featured": false
+  },
+  {
     "id": "holisticfusiontaskandsetupagnosticrobotlocalizat",
     "title": "Holistic Fusion: Task- and Setup-Agnostic Robot Localization and State Estimation With Factor Graphs",
     "authors": [
